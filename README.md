@@ -83,10 +83,33 @@ The dataset used in this analysis was sourced from public health data repositori
 6. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/ecbcbab5b4c06e7e5c244c156b5c6d6c8fe3fbee/6h.png)
 - There were a total of 8 comorbidities in the dataset, and the 3 shown in the output results above (Diabetes, Immunosuppression, and Solid Tumor) had the highest probability of death with diabetes being the highest, by far. This highlights the importance of managing and monitoring this condition effectively during hospitalization.
 
+7. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/077b902a42641667b70fa2ecaf9a137fe8a00d49/7h.png)
 - Generally speaking, and as shown by this output, prolonged stays in the ICU are associated with higher mortality rates (source). An increased length of stay in the ICU can be due to a number of reasons, such as cardiovascular system diseases, nervous system diseases, infections, underlying illnesses, and increased exposure to potential complications (source). According to this output, a patient who stayed in the ICU for longer than a day had a higher chance of death compared to someone who spent less than a day in the ICU.
 
-Conclusion: Age was the first big predictor of in-hospital mortality from this dataset. Consistently, advanced age has been associated with higher rates of medical conditions, complications, and death. According to the dataset, nearly 20% of the patients who were 70 years old or older experienced in-hospital mortality. This finding highlights the significant impact of age on mortality risk among older individuals. Another strong predictor of in-hospital mortality is comorbidities. Diabetes emerged as the most notable comorbidity, with a mortality rate of 24.45% among patients diagnosed with this condition. Heart rate can also be very telling to predict mortality as it reflects the cardiovascular status and overall physiological stability of patients. Abnormalities in heart rate, such as tachycardia (elevated heart rate) or bradycardia (low heart rate), often indicate underlying cardiovascular dysfunction or compromised perfusion (source). Research has consistently shown a strong association between abnormal heart rates and increased mortality risk. In this dataset, the average max heart rate for patients that died was 115.1. Generally, a resting heart rate is high if it is over 100 bpm (source). The length of stay at an ICU was also an important indicator of mortality, showing that patients who stayed for less than a day at the ICU had a much better chance for survival.
+## 🧠 Conclusion
 
-Next Steps/Recommendations: While the dataset managed to provide several good predictors for in-hospital mortality, it failed to include other common factors that would have influenced patient mortality. For instance, the dataset did not include information on specific treatments received, such as other vital signs, medications, surgeries, or interventions, which could have played a significant role in patient outcomes. Additionally, the dataset lacked socioeconomic variables, which have been shown to impact healthcare access, quality of care, and ultimately, mortality rates. Furthermore, psychosocial factors, such as mental health conditions, social support, and patient preferences, were not captured in the dataset, despite their known association with mortality. To gain a more comprehensive understanding of in-hospital mortality, future studies should strive to incorporate these additional variables to provide a more nuanced and holistic analysis of the factors influencing patient outcomes.
+- **Age** is a strong predictor of mortality; nearly 20% of patients aged 70+ died in hospital.
+- **Comorbidities** like diabetes significantly raise mortality risks.
+- **Heart rate** is a key physiological marker for assessing patient condition.
+- **ICU duration** is directly associated with risk; prolonged stays lead to higher mortality.
 
+---
+
+## 🔎 Recommendations
+
+- Future datasets should include:
+  - **Treatment details** (medications, procedures)
+  - **Vital signs** beyond heart rate
+  - **Socioeconomic indicators**
+  - **Psychosocial factors** (mental health, support systems)
+
+Incorporating these factors will allow for a **more holistic** understanding of patient mortality and lead to **better predictive models** and **clinical decisions**.
+
+---
+## ⭐ Feedback
+
+If you found this project helpful or insightful, please consider **starring** ⭐ the repository to show your support and encourage future contributions!
+
+
+---
 
