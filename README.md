@@ -70,6 +70,8 @@ The dataset used in this analysis was sourced from public health data repositori
 - These two outputs give more insight to the outcomes of patients in each ICU admit source & type. A vast majority of the patients were admitted to the "Accident & Emergency" ICU admit source and it also experienced the highest number of deaths. However, the ICU admit source with the highest probability of death was "Floor" with a percentage of 11.76. "Other ICU" was ignored because of its very small sample size.
 
 4a. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/57d2ab999dacd03c320c715a3de857585ad25c67/4h1.png)
+
+
 4b. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/c53b5117c6ac14b8ed13588ab5135583be87b37c/4h2.png)
 - In the second output where death results are shown for each ICU type, there is a clear outlier: Med-Surg ICU
 
