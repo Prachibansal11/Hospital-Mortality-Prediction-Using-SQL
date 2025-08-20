@@ -56,4 +56,7 @@ The dataset used in this analysis was sourced from public health data repositori
 
 
 ## 📊 Insights I Gathered
+    - Below I will show the results of the SQL queries I conducted and provide explanations of the patterns and trends I found throughout the analysis.
+    1. 
+
 
