@@ -64,6 +64,7 @@ The dataset used in this analysis was sourced from public health data repositori
 2. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/b866eab26bbc1a753d834d6a53d5835c098fdfda/2h.png)
 - This output showed the amount of patients that died and survived in each age group, categorized by 10-year intervals. There were far more admitted patients between the ages of 50-89 compared to patients who were between 0-49. Observing the results more, we can see that patients between ages 0-9 had the highest death percentage and each 10-year age group in the 50-89 range had a slight increase in death percentage. Nearly 1 in every 6 patients between the ages of 70-89 died in the hospital.
 
+3. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/e3d30c44422dd693b8c02dbe4388533a5681d04c/3h.png)
 - This output further proves that the death probability of a patient in the hospital rises as they get older.
 
 - These two outputs give more insight to the outcomes of patients in each ICU admit source & type. A vast majority of the patients were admitted to the "Accident & Emergency" ICU admit source and it also experienced the highest number of deaths. However, the ICU admit source with the highest probability of death was "Floor" with a percentage of 11.76. "Other ICU" was ignored because of its very small sample size.
