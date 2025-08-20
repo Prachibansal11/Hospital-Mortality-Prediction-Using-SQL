@@ -75,11 +75,12 @@ The dataset used in this analysis was sourced from public health data repositori
 - These two outputs give more insight to the outcomes of patients in each ICU admit source & type. A vast majority of the patients were admitted to the "Accident & Emergency" ICU admit source and it also experienced the highest number of deaths. However, the ICU admit source with the highest probability of death was "Floor" with a percentage of 11.76. "Other ICU" was ignored because of its very small sample size.
 - In the second output where death results are shown for each ICU type, there is a clear outlier: Med-Surg ICU
 
-5. ![Banner](https://raw.githubcontentuser.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/blob/ffa77106da411382b5bf678996d603df78784d63/5h.png)
+5. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/ffa77106da411382b5bf678996d603df78784d63/5h.png)
 - Average weight, BMI, and max heart rate among the patients that died.
 
 - The average weight of 67.57 kg (149 in lbs) suggests that, on average, the patients who passed away had a relatively moderate weight. The average BMI of 23.3 indicates that, on average, the patients who died had a BMI within the normal range. This suggests that weight alone may not be the sole determinant of mortality, as individuals with a normal BMI can also face significant health risks and complications leading to hospital death. The average maximum heart rate of 115.1 highlights a potential cardiovascular aspect in the patients' health profiles. Elevated heart rates can be indicative of underlying conditions (source), such as cardiac distress or organ failure, which might have contributed to the hospital mortality outcomes observed.
 
+6. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/ecbcbab5b4c06e7e5c244c156b5c6d6c8fe3fbee/6h.png)
 - There were a total of 8 comorbidities in the dataset, and the 3 shown in the output results above (Diabetes, Immunosuppression, and Solid Tumor) had the highest probability of death with diabetes being the highest, by far. This highlights the importance of managing and monitoring this condition effectively during hospitalization.
 
 - Generally speaking, and as shown by this output, prolonged stays in the ICU are associated with higher mortality rates (source). An increased length of stay in the ICU can be due to a number of reasons, such as cardiovascular system diseases, nervous system diseases, infections, underlying illnesses, and increased exposure to potential complications (source). According to this output, a patient who stayed in the ICU for longer than a day had a higher chance of death compared to someone who spent less than a day in the ICU.
