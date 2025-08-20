@@ -86,6 +86,8 @@ The dataset used in this analysis was sourced from public health data repositori
 7. ![Banner](https://raw.githubusercontent.com/Prachibansal11/Hospital-Mortality-Prediction-Using-SQL/077b902a42641667b70fa2ecaf9a137fe8a00d49/7h.png)
 - Generally speaking, and as shown by this output, prolonged stays in the ICU are associated with higher mortality rates (source). An increased length of stay in the ICU can be due to a number of reasons, such as cardiovascular system diseases, nervous system diseases, infections, underlying illnesses, and increased exposure to potential complications (source). According to this output, a patient who stayed in the ICU for longer than a day had a higher chance of death compared to someone who spent less than a day in the ICU.
 
+---
+
 ## 🧠 Conclusion
 
 - **Age** is a strong predictor of mortality; nearly 20% of patients aged 70+ died in hospital.
